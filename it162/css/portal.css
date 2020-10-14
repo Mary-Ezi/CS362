@@ -1,0 +1,139 @@
+/* Global rules */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html {
+    background-color: #ccc;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.em;
+}
+
+/*selection {
+    color: #000; 
+    background: #ff0;
+}*/
+
+h1 {
+    font-weight: normal;
+    margin: auto;
+    background: #f2e1d8;
+    line-height: 2.5em;
+    font-style: italic; 
+}
+
+div.wrapper {
+    background-color: #f2e1d8;
+    overflow: auto;
+}
+
+p {
+    margin: 1em 1em;
+}
+
+
+h2, h3 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1em;
+}
+
+a {
+   
+    text-decoration: none;
+    color: #4d4844;
+    
+}
+
+a:hover {
+   color: red!important;
+    text-decoration: underline;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    border: 2px solid darkcyan;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Responsive rules */
+
+/* DESKTOP */
+@media all and (min-width:1200px) {
+    div.wrapper {
+        width: 80%;
+        margin: auto;
+    }
+    
+ 
+    h1 {
+        width: 79%;
+        padding-left: 1%;
+    }
+    
+    img.desktop {
+        width: 40%;
+        float: left;
+        margin-right: 1em;
+        position: relative;  
+        top:-18px; 
+    }
+    
+    img.tablet, img.phone {
+        display: none;
+    }
+    
+    p {
+        margin: 1em;
+    }
+}
+
+/* TABLET */
+@media all and (min-width:501px) and (max-width:1199px) {
+    div.wrapper {
+        width: 90%;
+        margin: auto;
+    }
+
+    
+    h1 {
+        width: 89%;
+        padding-left: 1%;
+    }
+    
+    img.tablet {
+        width: 100%;
+        float: right;
+        margin-left: 1em;
+    }
+    
+    img.desktop, img.phone {
+        display: none;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:500px) {
+    div.wrapper {
+        width: 100%;
+    }
+    
+    h1 {
+        width: 99%;
+        padding-left: 1%;
+    }
+    
+    img.phone {
+        width: 100%;
+    }
+    
+    img.desktop, img.tablet {
+        display: none;
+    }
+}
