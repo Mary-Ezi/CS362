@@ -1,8 +1,11 @@
 <?php include 'includes/header.php';?>
        
-     <h2 class="subheader">AIA (Audience, Issues and approach)</h2>
-       
-     <p>Replace with two tables and information about my final project client and audiences. Assignment coming soon!</p>
+     <h2 class="subheader">Provide 2 resource links to client surveys</h2>
+     <ol>
+         <li>this is a web client survey resource</li>
+         <li>this is a web client survey resource</li>
+    </ol>  
+    
 
             
  <?php include 'includes/footer.php';?>         

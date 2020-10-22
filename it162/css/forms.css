@@ -1,5 +1,20 @@
+  <style type="text/css">
+         
+         /* start global page styles */
+      
+       
+		body {
+			margin:auto; /* center in html element */
+            padding:5%;
+			}
+		p,div {margin-bottom:0.5em;}
 		
-		/* start reCAPTCHA styles */
+        .inner {
+             margin-left:22.8px;
+                }		
+
+
+/* start reCAPTCHA styles */
 		
 		/* writes to small text above reCAPTCHA upon failure */
 		.dateFeedback{

@@ -41,7 +41,7 @@ h2, h3 {
 a {
    
     text-decoration: none;
-    color: #4d4844;
+    color: #cc5a1f;
     
 }
 
@@ -53,8 +53,16 @@ a:hover {
 iframe {
     display: block;
     margin: auto;
-    border: 2px solid darkcyan;
+    border: 2px solid red;
 }
+/* font awesome icon styles */
+i.logo {
+    color:#cc5a1f; /* a less boring color */
+    text-shadow:1px 1px #ccc; /* gives the icon a little depth */
+    font-size:1.25em; /* font awesome icons are text, so make it a bit bigger */
+    margin-left:1%; /* this keeps the icon from being squeeezed to the left */
+}
+
 
 footer {
     clear: both;
@@ -88,6 +96,10 @@ footer {
     img.tablet, img.phone {
         display: none;
     }
+     ul.topnav li a.selected {
+        		background-color: #f20707;
+        		color:#000;
+   	 }
     
     p {
         margin: 1em;
