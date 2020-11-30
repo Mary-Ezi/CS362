@@ -1,0 +1,135 @@
+/* BIG WEB120 */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html,body {
+    background-color:#ccc;
+}
+
+div.wrapper {
+    width:90%;
+    margin:auto;
+    background-color:#f2e1d8;
+    overflow:auto;
+}
+
+section {
+    float:left;
+    width:64%;
+    padding-left:2.5%;
+    background-color: #f2e1d8;  
+}
+
+aside {
+    float:right;
+     margin: 0 1.5%;
+    width:26%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+     float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+footer {
+    text-align:center;
+    text-transform:uppercase;
+    clear:both;
+    background-color: #e7c3b5;
+    overflow:auto; 
+   
+
+}
+
+
+
+header h1 {
+    text-align:right;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    padding:.5em;
+}
+
+p {
+    margin:1em .8em;
+}
+a {
+  color: #29627e;
+}
+
+div.dot iframe {
+    border:0;
+    overflow:no;
+}
+
+div.gallery {
+    text-align: center;    
+}
+figure {
+    display: inline-block;
+    margin: .25%;
+}
+
+
+/* START Global Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.embed-container.agenda-view {
+    display:none;
+}
+
+/* END Global Embed Responsively Rules! */
+
+
+footer p {
+    padding:2em;
+}
+
+footer a {
+    color:red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:white;
+    background-color:black;
+}
+    
+
+/* Phat PHONE Rules! */
+@media all and (max-width:860px) {
+    div.wrapper {
+        background-color:dimgray;
+    }
+    
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display:none;
+    }
+}
+
+
